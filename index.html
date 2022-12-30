@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit's Fitness Club</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css Reset */
+    body{
+        font-family: 'Baloo Bhai',cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg2.png');
+    }
+    .left{
+        color: white;
+        display:inline-block;
+        position: absolute;
+        left: 34px;
+        top: 30px;
+       
+    
+
+    }
+    .left img{
+        width: 50px;
+        text-align: center;
+    }
+    .left div{
+        font-size: 23px;
+        text-align: centre;
+    }
+.mid{
+    display: block;
+    width: 50%;
+    top: 30px;
+    margin: 15px auto;
+    color: white;
+
+    
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 30px;
+    display:inline-block;
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color:white);
+    text-decoration: none;
+    padding: 20px;
+}
+.navbar li a:hover,li a:active{
+   text-decoration: underline;
+   color: rgb(223, 176, 21);
+}
+.btn{
+    font-family: 'Baloo Bhai',cursive;
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid red;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(19, 139, 209);
+}
+.container{
+    border: 2px solid white;
+    border-radius: 40px;
+    margin: 2px 2px;
+    padding: 2px 2px;
+    width: 500px;
+    border-radius: 2px;
+}
+.form-group input{
+    text-align: center;
+    display:block;
+    width: 350px;
+    padding: 1px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 3px auto;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        text-align: center;
+        display: block;
+        width: 23%;
+        margin: auto;
+        border-radius: 8px;
+    }
+</style>
+<body>
+   <header class="header">
+       <!-- leftbox for logo -->
+       <div class="left">
+           <img src="img/gym.png" alt="">
+           <div> <b>Sumit's Fitness</b> </div>
+      
+
+       </div>
+       <!-- midbox for navbars -->
+       <div class="mid">
+        <ul class="navbar">
+            <li> <a href="#" class="active" >Home</a> </li>
+            <li> <a href="#">About</a> </li>
+            <li> <a href="#">Fitness Calculator</a> </li>
+            <li> <a href="#">Contact us</a> </li>
+        </ul>
+           
+       </div>
+       <!-- right box for buttons -->
+       <div class="right">
+           <button class="btn">Call Us Now</button>
+           <button class="btn">Email </button>
+
+       </div>
+   </header> 
+   <div class="container">
+    <h1>Join the best gym of Nanded</h1>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+        <input type="text" name="" placeholder="Enter your contact number">
+        </div>
+        <div class="form-group">
+        <input type="text" name="" placeholder="Enter your address">
+        </div>
+        <div class="form-group">
+        <input type="text" name="" placeholder="Enter your age ">
+        </div>
+        <button class="btn">Submit</button>
+   </div>
+</body>
+</html>
